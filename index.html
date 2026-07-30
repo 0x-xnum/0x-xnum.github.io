@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0x-xnum / portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+
+        :root {
+            --bg-color: #0d1117;
+            --text-main: #c6c8cc;
+            --text-muted: #8b8e94;
+            --text-dark: #6b6e74;
+            --accent: #a6e22e; /* green */
+            --border: #2b2d31;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 680px;
+            width: 100%;
+            padding: 2rem 1.25rem;
+            box-sizing: border-box;
+            margin-top: 2rem;
+        }
+
+        .header {
+            display: flex;
+            gap: 1.5rem;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+        }
+
+        @media (max-width: 600px) {
+            .header {
+                flex-direction: column;
+            }
+        }
+
+        .pfp-container {
+            width: 68px;
+            height: 68px;
+            flex-shrink: 0;
+            border: 1px solid var(--border);
+            overflow: hidden;
+            transition: border-color 0.3s ease;
+        }
+
+        .pfp-container:hover {
+            border-color: rgba(166, 226, 46, 0.5);
+        }
+
+        .pfp {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: grayscale(100%) brightness(0.95);
+            transition: all 0.5s ease;
+            image-rendering: pixelated;
+        }
+
+        .pfp-container:hover .pfp {
+            filter: grayscale(0%) brightness(1);
+        }
+
+        .title {
+            font-size: 17px;
+            font-weight: 500;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .title .name { color: var(--accent); }
+        .title .slash { color: var(--text-dark); margin: 0 8px; font-weight: 400; }
+        .title .desc { color: var(--text-muted); font-weight: 400; }
+
+        .caret {
+            display: inline-block;
+            width: 8px;
+            height: 17px;
+            background-color: var(--text-main);
+            margin-left: 4px;
+            animation: blink 1s step-end infinite;
+            vertical-align: text-bottom;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        .bio {
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+        }
+
+        .bio span {
+            color: var(--text-main);
+        }
+
+        .links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .links a:hover {
+            color: var(--text-main);
+        }
+
+        .links .dot {
+            color: var(--text-dark);
+            margin: 0 0.5rem;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid var(--border);
+            margin: 1.5rem 0;
+        }
+
+        .section-title {
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+        }
+
+        .section-title span {
+            color: var(--accent);
+        }
+
+        .experience-list {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .experience-item {
+            display: flex;
+            padding: 6px 8px;
+            transition: background-color 0.2s ease;
+        }
+
+        .experience-item:hover {
+            background-color: rgba(255, 255, 255, 0.03);
+        }
+
+        .experience-date {
+            color: var(--text-muted);
+            width: 100px;
+            flex-shrink: 0;
+        }
+
+        .experience-role {
+            color: var(--text-main);
+        }
+        
+        .experience-role a {
+            color: inherit;
+            text-decoration: underline;
+            text-decoration-color: var(--border);
+            text-underline-offset: 4px;
+            transition: text-decoration-color 0.2s ease;
+        }
+        
+        .experience-role a:hover {
+            text-decoration-color: var(--text-main);
+        }
+
+        @media (max-width: 600px) {
+            .experience-item {
+                flex-direction: column;
+                gap: 2px;
+            }
+            .experience-date {
+                width: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="pfp-container">
+                <img class="pfp" src="https://i.pinimg.com/originals/0f/26/7c/0f267cf2229db8b2d7a29bf96f16fc80.gif" alt="pfp">
+            </div>
+            <div>
+                <div class="title">
+                    <span class="name">0x-xnum</span>
+                    <span class="slash">/</span>
+                    <span class="desc">portfolio</span>
+                    <span class="caret"></span>
+                </div>
+                <div class="bio">
+                    - 19yo infosec dude.<br>
+                    - i <span>hack</span>, <span>code</span>, and <span>build</span> stuff for a living.<br>
+                    - when i'm off the keyboard, i'm probably doing crazy things, looping music, or touching grass.
+                </div>
+                <div class="links">
+                    <a href="https://x.com/0x_xnum" target="_blank">x</a><span class="dot">·</span>
+                    <a href="https://discordapp.com/users/0x_xnum" target="_blank">discord</a><span class="dot">·</span>
+                    <a href="./blog.html">blog</a><span class="dot">·</span>
+                    <a href="https://open.spotify.com/playlist/5W6FSZGSnUhKJvOKqCaD4u?si=3ad71638dc0b473c" target="_blank">spotify</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="section-title"><span>· </span>experience</div>
+        <div class="experience-list">
+            <div class="experience-item">
+                <span class="experience-date">Present</span>
+                <span class="experience-role">Associate Cyber Security Consultant @ Zinad</span>
+            </div>
+            <div class="experience-item">
+                <span class="experience-date">Present</span>
+                <span class="experience-role">Bug Hunter (Google VRP, Meta, NASA, IBM, Cisco)</span>
+            </div>
+            <div class="experience-item">
+                <span class="experience-date">Past</span>
+                <span class="experience-role">Network Administrator @ Telecom Egypt</span>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="section-title"><span>· </span>certs & writing</div>
+        <div class="experience-list">
+            <div class="experience-item">
+                <span class="experience-date">Certs</span>
+                <span class="experience-role">PEH, eWPTX, eMAPT, CRTP</span>
+            </div>
+            <div class="experience-item">
+                <span class="experience-date">Writeups</span>
+                <span class="experience-role"><a href="./blog.html">Read my latest writeups here</a></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

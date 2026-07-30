@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0x-xnum / writeups</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+
+        :root {
+            --bg-color: #0d1117;
+            --text-main: #c6c8cc;
+            --text-muted: #8b8e94;
+            --text-dark: #6b6e74;
+            --accent: #a6e22e; /* green */
+            --border: #2b2d31;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 680px;
+            width: 100%;
+            padding: 2rem 1.25rem;
+            box-sizing: border-box;
+            margin-top: 2rem;
+        }
+
+        .header {
+            margin-bottom: 1.5rem;
+        }
+
+        .title {
+            font-size: 17px;
+            font-weight: 500;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .title .name { color: var(--accent); }
+        .title .slash { color: var(--text-dark); margin: 0 8px; font-weight: 400; }
+        .title .desc { color: var(--text-muted); font-weight: 400; }
+
+        .caret {
+            display: inline-block;
+            width: 8px;
+            height: 17px;
+            background-color: var(--text-main);
+            margin-left: 4px;
+            animation: blink 1s step-end infinite;
+            vertical-align: text-bottom;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        .back-link {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.2s ease;
+            margin-bottom: 2rem;
+            display: inline-block;
+        }
+        
+        .back-link:hover {
+            color: var(--text-main);
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid var(--border);
+            margin: 1.5rem 0;
+        }
+
+        .section-title {
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+        }
+
+        .section-title span {
+            color: var(--accent);
+        }
+
+        .blog-list {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .blog-item {
+            display: flex;
+            padding: 10px 8px;
+            transition: background-color 0.2s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .blog-item:hover {
+            background-color: rgba(255, 255, 255, 0.03);
+        }
+
+        .blog-date {
+            color: var(--text-muted);
+            width: 100px;
+            flex-shrink: 0;
+        }
+
+        .blog-title {
+            color: var(--text-main);
+        }
+
+        .blog-item:hover .blog-title {
+            color: var(--accent);
+        }
+
+        @media (max-width: 600px) {
+            .blog-item {
+                flex-direction: column;
+                gap: 4px;
+            }
+            .blog-date {
+                width: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="./index.html" class="back-link">← cd /home</a>
+            <div class="title">
+                <span class="name">0x-xnum</span>
+                <span class="slash">/</span>
+                <span class="desc">writeups</span>
+                <span class="caret"></span>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="section-title"><span>· </span>posts</div>
+        <div class="blog-list">
+            <!-- 
+                To add a new writeup:
+                1. Write your markdown file (e.g. ssrf.md) and put it in the "posts" folder.
+                2. Copy the line below and change the link to: /yourfilename
+            -->
+            <a href="/beyond-the-shell" class="blog-item">
+                <span class="blog-date">2026-07-28</span>
+                <span class="blog-title">Beyond the Shell - Official Writeup (TOCTOU Race Condition)</span>
+            </a>
+            <a href="/image-rce-dns" class="blog-item">
+                <span class="blog-date">2026-03-22</span>
+                <span class="blog-title">Uploading an Image Was All I Needed for Full Server Access</span>
+            </a>
+            <a href="/dependency-confusion-rce" class="blog-item">
+                <span class="blog-date">2026-01-17</span>
+                <span class="blog-title">Dependency Confusion Vulnerability in a Ruby Application Leading to RCE</span>
+            </a>
+            <a href="/html-injection-ssrf" class="blog-item">
+                <span class="blog-date">2025-07-11</span>
+                <span class="blog-title">Escalating Simple HTML Injection to SSRF via PDF Rendering</span>
+            </a>
+            <a href="/privesc-impersonation" class="blog-item">
+                <span class="blog-date">2024-12-08</span>
+                <span class="blog-title">Privilege Escalation via Impersonation Features</span>
+            </a>
+            <a href="/saml-bypass-admin" class="blog-item">
+                <span class="blog-date">2024-07-31</span>
+                <span class="blog-title">How I Bypassed SAML Authentication and Accessed the Admin Panel</span>
+            </a>
+            <a href="/ato-via-idor" class="blog-item">
+                <span class="blog-date">2023-01-01</span>
+                <span class="blog-title">How I was able to discover ATO Via IDOR vulnerability</span>
+            </a>
+            
+        </div>
+    </div>
+</body>
+</html>
