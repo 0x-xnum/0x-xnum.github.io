@@ -74,4 +74,4 @@
 5. **The None Algorithm Attack**:
    * If a JWT uses "none" as the algorithm, modify payloads freely
 
-### For More Attacks and Techniques about .jwt look at the [jwt\_Hacking](/security-notes/owsap-top-10-2025/a07-authentication-failures/jwt-hacking.md) Page.
+### For More Attacks and Techniques about .jwt look at the [jwt\_Hacking](/jwt-hacking) Page.

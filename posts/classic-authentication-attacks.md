@@ -42,5 +42,5 @@ here, We're talking about brute-force attacks, password spraying, and messing wi
 * **Common User Passwords Profiler (CUPP):** (<https://github.com/Mebus/cupp>)
 
 &#123;% content-ref url="/pages/MGfpgRxzQsWcwBIVA5oJ" %}
-[Password Attacks](/security-notes/notes/active-directory-pentesting/password-attacks.md)
+[Password Attacks](/password-attacks)
 &#123;% endcontent-ref %}

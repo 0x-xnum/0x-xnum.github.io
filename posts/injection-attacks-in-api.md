@@ -49,7 +49,7 @@ For instance, if the API does not validate user input, an SQL injection could en
 For example, suppose an API query checks for username and password using SQL syntax. By using an input like `' OR 1=1 --`, you can bypass authentication by turning the query into one that always evaluates to true.
 
 &#123;% content-ref url="/pages/XLqxACXrE5yH6Ovo4J3E" %}
-[SQL Injection](/security-notes/owsap-top-10-2025/a05-injection/sql-injection.md)
+[SQL Injection](/sql-injection)
 &#123;% endcontent-ref %}
 
 ### NoSQL Injection
@@ -69,7 +69,7 @@ Unlike SQL, NoSQL databases have varied structures, so payloads differ across No
 In MongoDB, for example, `$gt` selects documents greater than a specified value, while `$nin` is a "not in" operator. These payloads can sometimes bypass authentication or create delays, revealing injection vulnerabilities.
 
 &#123;% content-ref url="/pages/EWnqaN19WyrBoyRpfvEq" %}
-[NoSQL Injection](/security-notes/owsap-top-10-2025/a05-injection/nosql-injection.md)
+[NoSQL Injection](/nosql-injection)
 &#123;% endcontent-ref %}
 
 ### OS Command Injection
