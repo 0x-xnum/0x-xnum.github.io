@@ -223,6 +223,6 @@ Look for statements allowing service principals without `aws:SourceAccount`, `aw
 
 ### Reports
 
-{% embed url="<https://vavkamil.cz/blog/2021-11-25-wordpress-plugin-confusion-update-can-get-you-pwned/>" %}
+&#123;% embed url="<https://vavkamil.cz/blog/2021-11-25-wordpress-plugin-confusion-update-can-get-you-pwned/>" %}
 
-{% embed url="<https://hackerone.com/reports/1364851>" %}
+&#123;% embed url="<https://hackerone.com/reports/1364851>" %}

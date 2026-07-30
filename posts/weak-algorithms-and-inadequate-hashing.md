@@ -568,22 +568,22 @@ cipher = AES.new(key, AES.MODE_GCM)
 
 ***
 
-{% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html>" %}
+&#123;% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html>" %}
 
-{% embed url="<https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-132.pdf>" %}
+&#123;% embed url="<https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-132.pdf>" %}
 
-{% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html>" %}
+&#123;% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html>" %}
 
-{% embed url="<https://cryptography.io/>" %}
+&#123;% embed url="<https://cryptography.io/>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/327.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/327.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/326.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/326.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/328.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/328.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/759.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/759.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/760.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/760.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/780.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/780.html>" %}

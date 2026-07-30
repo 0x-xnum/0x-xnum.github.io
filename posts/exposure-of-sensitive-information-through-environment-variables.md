@@ -239,7 +239,7 @@ Any process in the pod can read environment variables.
 
 ```bash
 # If you have access to Docker image:
-docker inspect [image_id] --format='{{json .Config.Env}}' | jq
+docker inspect [image_id] --format='&#123;&#123;json .Config.Env}}' | jq
 
 # If you have code execution in container:
 env | grep -E "SECRET|KEY|PASSWORD|TOKEN"
@@ -408,6 +408,6 @@ del api_key  # Explicit cleanup
 
 ***
 
-{% embed url="<https://cvefeed.io/cwe/detail/cwe-11-aspnet-misconfiguration-creating-debug-binary>" %}
+&#123;% embed url="<https://cvefeed.io/cwe/detail/cwe-11-aspnet-misconfiguration-creating-debug-binary>" %}
 
-{% embed url="<https://portswigger.net/kb/issues/00100800_asp-net-debugging-enabled>" %}
+&#123;% embed url="<https://portswigger.net/kb/issues/00100800_asp-net-debugging-enabled>" %}

@@ -488,12 +488,12 @@ javac -Xlint:deprecation Code.java
 
 ***
 
-{% embed url="<https://cwe.mitre.org/data/definitions/78.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/78.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/120.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/120.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/327.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/327.html>" %}
 
-{% embed url="<https://owasp.org/www-community/vulnerabilities/Use_of_Obsolete_Methods>" %}
+&#123;% embed url="<https://owasp.org/www-community/vulnerabilities/Use_of_Obsolete_Methods>" %}
 
-{% embed url="<https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard>" %}
+&#123;% embed url="<https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard>" %}

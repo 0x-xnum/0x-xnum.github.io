@@ -203,12 +203,12 @@ Ensure primary authentication is:
 
 ***
 
-{% embed url="<https://cwe.mitre.org/data/definitions/288.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/288.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/289.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/289.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/290.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/290.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/302.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/302.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/305.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/305.html>" %}

@@ -160,11 +160,11 @@ The above was a result of adding a `storeId` GET parameter to the URL. Using thi
 
 ### Lab 11: AngularJS Expression with angle brackets and double quotes HTML-encoded -> SSTI <a href="#lab-11-angularjs-expression-with-angle-brackets-and-double-quotes-html-encoded-greater-than-ssti" id="lab-11-angularjs-expression-with-angle-brackets-and-double-quotes-html-encoded-greater-than-ssti"></a>
 
-The hint here is that AngularJS expressions were used, and interestingly using `{{7*7}}` results in 49 being displayed:
+The hint here is that AngularJS expressions were used, and interestingly using `&#123;&#123;7*7}}` results in 49 being displayed:
 
 <figure><img src="https://rouvin.gitbook.io/ibreakstuff/~gitbook/image?url=https%3A%2F%2F1617468840-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fqpzdj1tPRpELJdvxuVYh%252Fuploads%252Fgit-blob-868083d89b721c1aa490944713e9f0166b951aca%252Fportswigger-xss-writeup-image-3.png%3Falt%3Dmedia&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=b3063987&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
-Leveraging on this SSTI, one can use `{{constructor.constructor('alert(1)')()}}` to solve the lab. This is because the entire thing is enclosed within an `ng-app` directive, thus making SSTI possible.
+Leveraging on this SSTI, one can use `&#123;&#123;constructor.constructor('alert(1)')()}}` to solve the lab. This is because the entire thing is enclosed within an `ng-app` directive, thus making SSTI possible.
 
 ### Lab 12: Reflected DOM XSS <a href="#lab-12-reflected-dom-xss" id="lab-12-reflected-dom-xss"></a>
 
@@ -470,7 +470,7 @@ angular.module('labApp', []).controller('vulnCtrl',function($scope, $parse) {
     $scope.value = $parse(key)($scope.query);
 });
 
-<h1 ng-controller=vulnCtrl>0 search results for {{value}}</h1>
+<h1 ng-controller=vulnCtrl>0 search results for &#123;&#123;value}}</h1>
 ```
 
 So this doesn't use `eval`, which means I don't have any strings in AngularJS.

@@ -444,10 +444,10 @@ def safe_file_operation(filename):
 
 ***
 
-{% embed url="<https://cwe.mitre.org/data/definitions/362.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/362.html>" %}
 
-{% embed url="<https://owasp.org/www-community/attacks/Race_condition>" %}
+&#123;% embed url="<https://owasp.org/www-community/attacks/Race_condition>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/362.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/362.html>" %}
 
-{% embed url="<https://portswigger.net/web-security/race-conditions>" %}
+&#123;% embed url="<https://portswigger.net/web-security/race-conditions>" %}

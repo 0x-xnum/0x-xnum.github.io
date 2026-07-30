@@ -78,6 +78,6 @@ By combining this excessive data exposure with the BOLA vulnerability, you can c
 
 For Some Senraios  :
 
-{% content-ref url="/pages/Q7vL4RNf5auFr3y0Iihn" %}
+&#123;% content-ref url="/pages/Q7vL4RNf5auFr3y0Iihn" %}
 [Broken mention](broken://pages/Q7vL4RNf5auFr3y0Iihn)
-{% endcontent-ref %}
+&#123;% endcontent-ref %}

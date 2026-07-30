@@ -557,10 +557,10 @@ public ActionResult EditUser(int userId, User userData) {
 
 ***
 
-{% embed url="<https://cwe.mitre.org/data/definitions/1173.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/1173.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/1174.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/1174.html>" %}
 
-{% embed url="<https://fluentvalidation.net/>" %}
+&#123;% embed url="<https://fluentvalidation.net/>" %}
 
-{% embed url="<https://learn.microsoft.com/en-us/aspnet/core/mvc/models/validation>" %}
+&#123;% embed url="<https://learn.microsoft.com/en-us/aspnet/core/mvc/models/validation>" %}

@@ -599,12 +599,12 @@ for each_message:
 
 ***
 
-{% embed url="<https://docs.python.org/3/library/secrets.html>" %}
+&#123;% embed url="<https://docs.python.org/3/library/secrets.html>" %}
 
-{% embed url="<https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html>" %}
+&#123;% embed url="<https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html>" %}
 
-{% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Randomness_Cheat_Sheet.html>" %}
+&#123;% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Randomness_Cheat_Sheet.html>" %}
 
-{% embed url="<https://tools.ietf.org/html/rfc4122>" %}
+&#123;% embed url="<https://tools.ietf.org/html/rfc4122>" %}
 
-{% embed url="<https://www.openssl.org/docs/man1.1.1/man3/RAND_bytes.html>" %}
+&#123;% embed url="<https://www.openssl.org/docs/man1.1.1/man3/RAND_bytes.html>" %}

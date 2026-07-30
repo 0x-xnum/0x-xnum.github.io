@@ -41,6 +41,6 @@ here, We're talking about brute-force attacks, password spraying, and messing wi
 * **Mentalist App:** (<https://github.com/sc0tfree/mentalist>)
 * **Common User Passwords Profiler (CUPP):** (<https://github.com/Mebus/cupp>)
 
-{% content-ref url="/pages/MGfpgRxzQsWcwBIVA5oJ" %}
+&#123;% content-ref url="/pages/MGfpgRxzQsWcwBIVA5oJ" %}
 [Password Attacks](/security-notes/notes/active-directory-pentesting/password-attacks.md)
-{% endcontent-ref %}
+&#123;% endcontent-ref %}

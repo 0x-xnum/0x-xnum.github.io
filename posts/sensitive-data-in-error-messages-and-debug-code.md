@@ -558,16 +558,16 @@ logger.info(f"Login attempt for: {username}")
 
 ***
 
-{% embed url="<https://cwe.mitre.org/data/definitions/209.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/209.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/215.htmlhttps://cwe.mitre.org/data/definitions/550.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/215.htmlhttps://cwe.mitre.org/data/definitions/550.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/756.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/756.html>" %}
 
-{% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Error_Handling_Cheat_Sheet.html>" %}
+&#123;% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Error_Handling_Cheat_Sheet.html>" %}
 
-{% embed url="<https://owasp.org/www-community/Information_Disclosure>" %}
+&#123;% embed url="<https://owasp.org/www-community/Information_Disclosure>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/209.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/209.html>" %}
 
-{% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html>" %}
+&#123;% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html>" %}

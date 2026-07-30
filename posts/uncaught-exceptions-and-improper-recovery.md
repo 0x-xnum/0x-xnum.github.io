@@ -564,18 +564,18 @@ except Exception as e:
 
 ***
 
-{% embed url="<https://cwe.mitre.org/data/definitions/248.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/248.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/252.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/252.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/390.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/390.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/703.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/703.html>" %}
 
-{% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Error_Handling_Cheat_Sheet.html>" %}
+&#123;% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Error_Handling_Cheat_Sheet.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/248.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/248.html>" %}
 
-{% embed url="<https://docs.python.org/3/tutorial/errors.html>" %}
+&#123;% embed url="<https://docs.python.org/3/tutorial/errors.html>" %}
 
-{% embed url="<https://docs.oracle.com/javase/tutorial/essential/exceptions/>" %}
+&#123;% embed url="<https://docs.oracle.com/javase/tutorial/essential/exceptions/>" %}

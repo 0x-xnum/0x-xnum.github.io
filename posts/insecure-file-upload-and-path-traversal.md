@@ -564,14 +564,14 @@ if (strpos($output[0], 'FOUND') !== false) {
 
 ***
 
-{% embed url="<https://cwe.mitre.org/data/definitions/73.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/73.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/434.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/434.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/646.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/646.html>" %}
 
-{% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html>" %}
+&#123;% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/434.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/434.html>" %}
 
-{% embed url="<https://portswigger.net/kb/issues/00200900_file-upload-functionality>" %}
+&#123;% embed url="<https://portswigger.net/kb/issues/00200900_file-upload-functionality>" %}

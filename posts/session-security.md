@@ -299,10 +299,10 @@ def logout():
 
 ### Related CWE Entries
 
-{% embed url="<https://cwe.mitre.org/data/definitions/384.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/384.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/613.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/613.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/620.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/620.html>" %}
 
-{% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html>" %}
+&#123;% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html>" %}

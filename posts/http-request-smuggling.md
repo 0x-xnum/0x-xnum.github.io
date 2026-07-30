@@ -397,10 +397,10 @@ Close connections after each request instead of reusing.
 
 ***
 
-{% embed url="<https://cwe.mitre.org/data/definitions/444.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/444.html>" %}
 
-{% embed url="<https://portswigger.net/kb/issues/00200140_http-request-smuggling>" %}
+&#123;% embed url="<https://portswigger.net/kb/issues/00200140_http-request-smuggling>" %}
 
-{% embed url="<https://www.yeswehack.com/learn-bug-bounty/http-request-smuggling-guide-vulnerabilities>" %}
+&#123;% embed url="<https://www.yeswehack.com/learn-bug-bounty/http-request-smuggling-guide-vulnerabilities>" %}
 
-{% embed url="<https://portswigger.net/research/http-request-smuggling>" %}
+&#123;% embed url="<https://portswigger.net/research/http-request-smuggling>" %}

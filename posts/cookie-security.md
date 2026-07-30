@@ -355,12 +355,12 @@ Content-Security-Policy: default-src 'self'
 
 ***
 
-{% embed url="<https://cwe.mitre.org/data/definitions/315.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/315.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/614.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/614.html>" %}
 
-{% embed url="<https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/06-Session_Management_Testing/README>" %}
+&#123;% embed url="<https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/06-Session_Management_Testing/README>" %}
 
-{% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html>" %}
+&#123;% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/1004.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/1004.html>" %}

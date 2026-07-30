@@ -448,14 +448,14 @@ For critical actions (delete, transfer):
 
 ***
 
-{% embed url="<https://cwe.mitre.org/data/definitions/451.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/451.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/1021.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/1021.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/1022.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/1022.html>" %}
 
-{% embed url="<https://owasp.org/www-community/attacks/Clickjacking>" %}
+&#123;% embed url="<https://owasp.org/www-community/attacks/Clickjacking>" %}
 
-{% embed url="<https://portswigger.net/web-security/clickjacking>" %}
+&#123;% embed url="<https://portswigger.net/web-security/clickjacking>" %}
 
-{% embed url="<https://developer.mozilla.org/en-US/docs/Web/API/Window/opener>" %}
+&#123;% embed url="<https://developer.mozilla.org/en-US/docs/Web/API/Window/opener>" %}

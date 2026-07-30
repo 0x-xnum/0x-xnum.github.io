@@ -573,22 +573,22 @@ truffleHog filesystem . --json
 
 ***
 
-{% embed url="<https://cwe.mitre.org/data/definitions/258.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/258.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/259.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/259.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/798.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/798.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/1392.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/1392.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/1393.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/1393.html>" %}
 
-{% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Credentials_Cheat_Sheet.html>" %}
+&#123;% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Credentials_Cheat_Sheet.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/798.htm>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/798.htm>" %}
 
-{% embed url="<https://github.com/Yelp/detect-secrets>" %}
+&#123;% embed url="<https://github.com/Yelp/detect-secrets>" %}
 
-{% embed url="<https://github.com/trufflesecurity/trufflehog>" %}
+&#123;% embed url="<https://github.com/trufflesecurity/trufflehog>" %}
 
-{% embed url="<https://www.gitguardian.com/>" %}
+&#123;% embed url="<https://www.gitguardian.com/>" %}

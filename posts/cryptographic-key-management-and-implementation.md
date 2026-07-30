@@ -560,12 +560,12 @@ for each_encryption:
 
 ***
 
-{% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html>" %}
+&#123;% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html>" %}
 
-{% embed url="<https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-57p1r4.pdf>" %}
+&#123;% embed url="<https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-57p1r4.pdf>" %}
 
-{% embed url="<https://aws.amazon.com/secrets-manager/>" %}
+&#123;% embed url="<https://aws.amazon.com/secrets-manager/>" %}
 
-{% embed url="<https://www.vaultproject.io/>" %}
+&#123;% embed url="<https://www.vaultproject.io/>" %}
 
-{% embed url="<https://github.com/drwetter/testssl.sh>" %}
+&#123;% embed url="<https://github.com/drwetter/testssl.sh>" %}

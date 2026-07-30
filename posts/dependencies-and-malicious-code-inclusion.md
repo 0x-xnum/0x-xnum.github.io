@@ -381,18 +381,18 @@ def verify_code_signature(code, signature, secret_key):
 
 ***
 
-{% embed url="<https://cwe.mitre.org/data/definitions/494.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/494.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/509.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/509.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/829.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/829.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/830.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/830.html>" %}
 
-{% embed url="<https://owasp.org/www-project-dependency-check/>" %}
+&#123;% embed url="<https://owasp.org/www-project-dependency-check/>" %}
 
-{% embed url="<https://docs.npmjs.com/cli/v8/commands/npm-audit>" %}
+&#123;% embed url="<https://docs.npmjs.com/cli/v8/commands/npm-audit>" %}
 
-{% embed url="<https://www.srihash.org/>" %}
+&#123;% embed url="<https://www.srihash.org/>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/494.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/494.html>" %}

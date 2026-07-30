@@ -454,12 +454,12 @@ if ($dtd && !in_array($dtd, $allowed_dtds)) {
 
 ***
 
-{% embed url="<https://cwe.mitre.org/data/definitions/611.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/611.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/827.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/827.html>" %}
 
-{% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html>" %}
+&#123;% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html>" %}
 
-{% embed url="<https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing>" %}
+&#123;% embed url="<https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing>" %}
 
-{% embed url="<https://www.invicti.com/learn/xml-external-entity-xxe>" %}
+&#123;% embed url="<https://www.invicti.com/learn/xml-external-entity-xxe>" %}

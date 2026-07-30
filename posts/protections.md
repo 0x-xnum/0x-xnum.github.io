@@ -148,7 +148,7 @@ The [cdnjs.cloudflare.com](https://cdnjs.cloudflare.com/) or [ajax.googleapis.co
 <!-- cdnjs.cloudflare.com -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prototype/1.7.2/prototype.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.0.1/angular.js"></script>
-<div ng-app ng-csp>{{$on.curry.call().alert($on.curry.call().document.domain)}}</div>
+<div ng-app ng-csp>&#123;&#123;$on.curry.call().alert($on.curry.call().document.domain)}}</div>
 ```
 
 Loading any of these blocks in a CSP that allows it, will trigger the `alert(document.domain)` function. A common pattern for finding these bypasses is using Angular to create an environment where code can be executed from **event handlers**, and then another library or callback function to **click** on the element, triggering the handler with your malicious code.

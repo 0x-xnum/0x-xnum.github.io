@@ -552,11 +552,11 @@ info:
 requests:
   - method: GET
     path:
-      - "{{BaseURL}}"
-      - "{{BaseURL}}/version"
-      - "{{BaseURL}}/status"
-      - "{{BaseURL}}/api/version"
-      - "{{BaseURL}}/robots.txt"
+      - "&#123;&#123;BaseURL}}"
+      - "&#123;&#123;BaseURL}}/version"
+      - "&#123;&#123;BaseURL}}/status"
+      - "&#123;&#123;BaseURL}}/api/version"
+      - "&#123;&#123;BaseURL}}/robots.txt"
     
     matchers:
       - type: regex
@@ -662,8 +662,8 @@ Especially for:
 
 ***
 
-{% embed url="<https://cwe.mitre.org/data/definitions/1035.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/1035.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/1104.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/1104.html>" %}
 
-{% embed url="<https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/>" %}
+&#123;% embed url="<https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/>" %}

@@ -270,14 +270,14 @@ Tells browsers to always use HTTPS, never HTTP.
 
 ### Related CWE Entries
 
-{% embed url="<https://cwe.mitre.org/data/definitions/295.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/295.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/297.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/297.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/346.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/346.html>" %}
 
-{% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html>" %}
+&#123;% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/295.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/295.html>" %}
 
-{% embed url="<https://github.com/drwetter/testssl.sh>" %}
+&#123;% embed url="<https://github.com/drwetter/testssl.sh>" %}

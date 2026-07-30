@@ -420,8 +420,8 @@ def admin_panel():
 
 ***
 
-{% embed url="<https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/05-Authorization_Testing/README>" %}
+&#123;% embed url="<https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/05-Authorization_Testing/README>" %}
 
-{% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html>" %}
+&#123;% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/266.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/266.html>" %}

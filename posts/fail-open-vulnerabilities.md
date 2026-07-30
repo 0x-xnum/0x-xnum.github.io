@@ -660,18 +660,18 @@ except:
 
 ***
 
-{% embed url="<https://cwe.mitre.org/data/definitions/636.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/636.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/476.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/476.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/484.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/484.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/478.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/478.html>" %}
 
-{% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html>" %}
+&#123;% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/636.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/636.html>" %}
 
-{% embed url="<http://findbugs.sourceforge.net/>" %}
+&#123;% embed url="<http://findbugs.sourceforge.net/>" %}
 
-{% embed url="<https://www.sonarqube.org/>" %}
+&#123;% embed url="<https://www.sonarqube.org/>" %}

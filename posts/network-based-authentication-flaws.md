@@ -298,14 +298,14 @@ def api_data():
 
 ***
 
-{% embed url="<https://cwe.mitre.org/data/definitions/291.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/291.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/293.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/293.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/300.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/300.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/350.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/350.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/940.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/940.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/941.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/941.html>" %}

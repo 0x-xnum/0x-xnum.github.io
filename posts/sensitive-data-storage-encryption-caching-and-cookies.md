@@ -559,10 +559,10 @@ export DB_PASSWORD=secret
 
 ***
 
-{% embed url="<https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure/>" %}
+&#123;% embed url="<https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure/>" %}
 
-{% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html>" %}
+&#123;% embed url="<https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html>" %}
 
-{% embed url="<https://cwe.mitre.org/data/definitions/256.html>" %}
+&#123;% embed url="<https://cwe.mitre.org/data/definitions/256.html>" %}
 
-{% embed url="<https://www.pcisecuritystandards.org/>" %}
+&#123;% embed url="<https://www.pcisecuritystandards.org/>" %}
