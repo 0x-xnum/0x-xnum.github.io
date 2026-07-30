@@ -134,7 +134,7 @@ What I do after that is extract the IPs running HTTP/S services that are accessi
 
 You can then run **httpx** on these IPs and keep the results organized.
 
-And in my [GitBook ](https://ahmed-tarek.gitbook.io/0x_xnum)notes, under the [Attack Victors by port](https://ahmed-tarek.gitbook.io/0x_xnum/net-pen/attack-vectors-by-port) page, i explained all the other services and their potential attacks based on the ports they run on.
+And in my [Portfolio](/blog.html) notes, under the [Attack Victors by port](/attack-vectors-by-port) page, i explained all the other services and their potential attacks based on the ports they run on.
 
 #### 3. Collect Subdmains
 
