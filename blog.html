@@ -1016,5 +1016,44 @@
         </details>
             </div>
         </details>
+
+<script>
+function restoreState() {
+    const lastSlug = sessionStorage.getItem('lastBlogSlug');
+    if (lastSlug) {
+        const target = document.querySelector(`a[href="/${lastSlug}"]`);
+        if (target) {
+            let parent = target.parentElement;
+            while (parent) {
+                if (parent.tagName === 'DETAILS') {
+                    parent.setAttribute('open', '');
+                }
+                parent = parent.parentElement;
+            }
+            target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            target.style.backgroundColor = 'rgba(166, 226, 46, 0.15)';
+            setTimeout(() => { target.style.transition = 'background-color 0.5s'; target.style.backgroundColor = ''; }, 1500);
+            sessionStorage.removeItem('lastBlogSlug');
+        }
+    }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll('a.blog-item').forEach(link => {
+        link.addEventListener('click', () => {
+            const slug = link.getAttribute('href').substring(1);
+            sessionStorage.setItem('lastBlogSlug', slug);
+        });
+    });
+    restoreState();
+});
+
+window.addEventListener('pageshow', (event) => {
+    if (event.persisted) {
+        restoreState();
+    }
+});
+</script>
+
 </body>
 </html>
