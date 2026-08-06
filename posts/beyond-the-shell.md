@@ -35,7 +35,7 @@ If you are proxying your traffic through an intercepting proxy like Caido, look 
 
 <img src="../assets/images/media__1785230254657.png" alt="Proxy Time Delay" width="65%">
 
-The response takes a suspiciously long time to return—consistently hovering around 2,000 milliseconds (2 seconds)—before finally telling you that the file is not a valid image.
+The response takes a suspiciously long time to return. It consistently hovers around 2,000 milliseconds (2 seconds) before finally telling you that the file is not a valid image.
 
 Why would a simple file upload take 2 seconds to just return an error? It's too slow for standard validation, and it's too consistent to just be network lag. This heavily hints that there is either an intense synchronous operation happening (like heavy image processing), or the developer has intentionally placed a `sleep(2)` function in the code. In the context of a CTF, a hardcoded sleep during an upload is a glowing neon sign pointing directly to a Race Condition.
 
@@ -158,14 +158,14 @@ eycc{KACHOW_yOu_4RE_sO_F4St!}
 ---
 
 ### Behind the Scenes: The Author's Perspective
-This was actually my very first time developing a CTF challenge! I wanted to build something that forces players to actually think and enumerate, instead of just throwing automated tools at an upload form.
+This was my first time developing a CTF challenge. I wanted to build something that forces players to think and enumerate instead of just throwing automated tools at an upload form.
 
 #### The Backend Logic (`profile.php`)
-Instead of just handing out the source code (like leaving a `.php.bak` file lying around), I used the `debug.php` error leak. That empty string SHA-256 hash inside `tmpPath` was the main breadcrumb to get players to figure out how the backend handles filenames.
+Instead of just handing out the source code (like leaving a `.php.bak` file around), I used the `debug.php` error leak. That empty string SHA-256 hash inside `tmpPath` was the main breadcrumb to get players to figure out how the backend handles filenames.
 
-And that 2-second `sleep()` wasn't just there to make the TOCTOU possible; it was the main hint. If you're proxying your traffic, you'd immediately notice that artificial delay.
+And that 2-second `sleep()` wasn't just there to make the TOCTOU possible, it was the main hint. If you're proxying your traffic, you'll immediately notice that artificial delay.
 
-Here is exactly what the backend PHP looks like:
+Here is what the backend PHP looks like:
 
 ```php
 <?php
@@ -189,7 +189,7 @@ if (!$isImage) {
 ```
 
 #### Dynamic Flags & Stopping Real RCE
-Giving players full RCE on a shared CTF server is usually a bad idea—someone will end up deleting the flag or breaking the server for everyone else. To fix this, I wrapped the `/avatars/` directory using an `auto_prepend_file` trick in `.htaccess`:
+Giving players full RCE on a shared CTF server is a bad idea because someone will end up deleting the flag or breaking the server for everyone else. To fix this, I wrapped the `/avatars/` directory using an `auto_prepend_file` trick in `.htaccess`:
 
 ```apache
 # /avatars/.htaccess
